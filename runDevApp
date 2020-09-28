@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Start virtual environment
+source  venv/bin/activate
+
+#Set Application variables
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+
+#run app
+flask run
